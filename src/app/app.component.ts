@@ -9,5 +9,12 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'my-app';
+  title: string;
+  numberOne: number = 1;
+  numberTwo: number = 2;
+  toggle: boolean = false;
+
+  constructor() {
+    this.title = "Swarn";
+  }
 }
