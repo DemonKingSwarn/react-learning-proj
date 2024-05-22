@@ -9,6 +9,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+  
+  // string interpolation
+
   title: string;
   numberOne: number = 1;
   numberTwo: number = 2;
