@@ -9,15 +9,13 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  
-  // string interpolation
 
-  title: string;
-  numberOne: number = 1;
-  numberTwo: number = 2;
-  toggle: boolean = false;
+  // property binding
+
+  title: string = "swarn";
+  imgSrc: string = "https://yt3.ggpht.com/a/AATXAJy8stJvLJrN0cleHvkBG4hVDcCMy3p47CZTWWtk=s900-c-k-c0xffffffff-no-rj-mo";
 
   constructor() {
-    this.title = "Swarn";
+    
   }
 }
